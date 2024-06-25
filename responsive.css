@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1500px){
+    .store-a, .login-a, .cart-a{
+        font-size: 11px;
+    }
+    .login img{
+        width: 13px;
+    }
+    .cart img{
+        width: 13px;
+    }
+    .store img{
+        width: 13px;
+    }
+    .menu img{
+        width: 13px;
+    }
+    .box{
+        height: 14vh;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .writethird{
+        font-size: 13px;
+    }
+    .fourthbox img{
+        width: 100px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .footer{
+        margin: 0;
+        padding: 0;
+    }
+    .thirdbox img{
+        width: 100px;
+        height: 70px;
+    }
+    footer{
+        height: 70vh;
+    }
+    .fourthbox{
+        width: 300px;
+    }
+    .bg{
+        height: 16vh;
+    }
+    .second{
+        height: 17vh;
+    }
+    .store-a, .login-a, .cart-a{
+        display: none;
+    }
+    .login img{
+        width: 18px;
+    }
+    .cart img{
+        width: 18px;
+    }
+    .store img{
+        width: 18px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .lastfooter{
+        font-size: 9px;
+    }
+    .fourth{
+        height: 280px;
+    }
+    .fourthbox{
+        height: 200px;
+        margin: 1px;
+    }
+    .third{
+        height: 280px;
+    }
+    .thirdbox{
+        height: 200px;
+        width: 160px;
+    }
+    .payment img{
+        width: 28vw;
+    }
+}
+@media only screen and (max-width: 750px){
+    .fourthsection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fourthbox{
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .thirdsection{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .thirdbox{
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .box img{
+        width: 40px;
+    }
+    .box .write{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .bg{
+        height: 10vh;
+    }
+    .second{
+        height: 12vh;
+    }
+    footer{
+        height: 80vh;
+    }
+    .lastfooter{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .leftarrow{
+        display: none;
+    }
+    .rightarrow{
+        display: none;
+    }
+    .lastbox{
+        width: 100%;
+        /* border: 0.2px solid white; */
+        text-align: center;
+    }
+    .linebox{
+        display: none;
+    }
+    .first{
+        height: 9vh;
+        display: block;
+    }
+    .first.show{
+        display: none;
+    }
+    .firstsection{
+        flex-direction: column;
+    }
+}
